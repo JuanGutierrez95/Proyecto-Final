@@ -148,3 +148,9 @@ box-shadow: 5px 5px 17px 7px #FF314B;
 box-shadow: 5px 5px 17px 7px #FF314B;
 }
 */
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    body{   
+        background-color: rgb(43, 255, 0);
+    }
+}
