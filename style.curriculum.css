@@ -1,0 +1,151 @@
+/*
+*{
+    outline: 1px solid red;
+}
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #fdffcd;
+    padding-top: 0px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+}
+
+.volver{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:black;
+    color: #fdffcd;
+    height: 26px;
+    width: 80px;
+    margin-top: 879px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-box-shadow: 5px 5px 17px 7px #FF314B; 
+    box-shadow: 5px 5px 17px 7px #FF314B;
+
+}
+
+.link{
+    text-decoration: none;
+}
+
+.contenedor{
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid gray;
+    overflow: hidden;
+    
+}
+
+.tit{
+    padding-top: 103px;
+}
+
+
+/****************************************ACERCA DE MI**************************************/
+
+
+.acercademi{
+    float: left;
+    padding: 0px;
+    color: white;
+    width: 300px;
+    background-color:#113f67;
+    font-size: 15px;
+}
+
+.acercademi p{
+    margin-right: 35px;
+}
+
+.acercah3{
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.acercademi p{
+    margin-left: 30px;
+}
+
+.acercademi h3{
+    margin-left: 30px;
+}
+
+.acercademi hr{
+    margin-left: 20px;
+    border-color: black;
+    /*height: 1px;*/
+}
+
+.acercademi a{
+    color: white;
+    text-decoration: none;
+}
+
+.acercademi span{
+    margin-left: 30px;
+    margin-right: 15px;
+    color: black;
+    font-size: 25px;
+}
+
+
+/****************************************EXPERIENCIA**************************************/
+
+
+.experiencia h1{
+    margin-left: 14px;
+    color:#113f67; 
+    font-size: 34px;
+    padding: 10px;
+    text-shadow: 5px 5px 10px rgba(17, 63, 103, 0.4);
+color: #113f67;
+}
+
+.experiencia hr {
+    margin-left: 20px;
+    border-color: #113F67;
+    margin-right: -10px;
+    /*height: 1px;*/
+}
+
+.experiencia{
+    float: left;
+    padding: 0px;
+    color: rgb(5, 5, 5);
+    width: 300px;
+    margin-right: 30px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.experiencia h4{
+    margin-left: 30px;
+}
+
+.experiencia h3{
+    margin-left: 30px;
+    color: #113F67;
+}
+
+.experiencia p{
+    margin-left: 8px;
+}
+
+.experiencia li {
+    margin-left: 10px;
+    padding-top: -40px;
+}
+
+.experiencia span{
+    margin-right: 15px;
+    color: black;
+    font-size: 25px;
+}
